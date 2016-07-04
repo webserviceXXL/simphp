@@ -11,11 +11,9 @@ Description:
    webpages. The stats can be displayed on any PHP-enabled
    webpage. You MUST have read/write permissions on files
 
-Script by Ajay: me@ajay.ga
-
+Script by Ajay: me@ajay.ga - https://github.com/ajay-gandhi/simphp
+Edited by Heiko Vogelgesang - http://www.webservicexxl.de
 ----------------------------*/
-
-
 
 /*----------CONFIG----------*/
 
@@ -33,7 +31,7 @@ $monthly = 1;
 // Path to store old files:
 // Default for June, 2012:
 //   oldfiles/6-12.txt
-$monthly_path = "oldfiles";
+$monthly_path = "history";
 
 // Count unique hits or total hits:
 //   0 = Total hits
@@ -51,7 +49,7 @@ $beforeUniqueText = "Unique Visits: ";
 // Display hits on this page:
 //   0 = No
 //   1 = Yes
-$display = 1;
+$display = 0;
 
 // Only change this if you are recording both values
 // Separator for unique and total hits display - use HTML tags! (line break is default)
